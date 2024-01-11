@@ -1,12 +1,13 @@
 # https://github.com/Ahamed-Fahim29/HIT137-Assignment-02_Group-125-SYD
+# question_1_task_1
 import pandas as pd
 import os
 import zipfile
 import shutil
 
-# Check if the current working directory is CDU_Python_Assignment-2
+# Check if the current working directory is HIT137-Assignment-02_Group-125-SYD
 current_directory = os.getcwd()
-expected_directory = "CDU_Python_Assignment-2"
+expected_directory = "HIT137-Assignment-02_Group-125-SYD"
 
 if os.path.basename(current_directory) != expected_directory:
     print(f"Error: Please make sure you are in the '{expected_directory}' directory.")

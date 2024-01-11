@@ -1,0 +1,7 @@
+Criteria,Values
+Total Entities Detected by en_core_sci_sm,107
+Total Entities Detected by BioBERT,100
+Entities Detected by Both Models,0
+Entities Detected only by en_core_sci_sm,83
+Entities Detected only by BioBERT,98
+Common Entities,set()

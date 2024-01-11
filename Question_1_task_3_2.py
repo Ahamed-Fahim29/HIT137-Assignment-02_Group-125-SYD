@@ -1,4 +1,5 @@
 # https://github.com/Ahamed-Fahim29/HIT137-Assignment-02_Group-125-SYD
+# question_1_task_3_2
 import os
 import pandas as pd
 from collections import Counter
@@ -13,8 +14,8 @@ def tokenize_chunk(chunk, tokenizer):
     return tokens
 
 def count_unique_tokens(text_file_path, top_n=30, max_chunks=None):
-    # Check if the current working directory is "CDU_Python_Assignment-2"
-    expected_directory = "CDU_Python_Assignment-2"
+    # Check if the current working directory is "HIT137-Assignment-02_Group-125-SYD"
+    expected_directory = "HIT137-Assignment-02_Group-125-SYD"
     if os.path.basename(os.getcwd()) != expected_directory:
         print(f"Error: Please make sure you are in the '{expected_directory}' directory.")
         return

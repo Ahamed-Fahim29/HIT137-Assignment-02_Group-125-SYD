@@ -1,11 +1,12 @@
 # https://github.com/Ahamed-Fahim29/HIT137-Assignment-02_Group-125-SYD
+# question_1_task_3_1
 import os
 import pandas as pd
 from collections import Counter
 import time
 
-# Check if the current working directory is "CDU_Python_Assignment-2"
-expected_directory = "CDU_Python_Assignment-2"
+# Check if the current working directory is "HIT137-Assignment-02_Group-125-SYD"
+expected_directory = "HIT137-Assignment-02_Group-125-SYD"
 if os.path.basename(os.getcwd()) != expected_directory:
     print(f"Error: Please make sure you are in the '{expected_directory}' directory.")
 else:
