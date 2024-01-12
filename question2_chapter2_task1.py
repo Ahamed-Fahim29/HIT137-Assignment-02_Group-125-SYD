@@ -1,3 +1,4 @@
+#https://github.com/Ahamed-Fahim29/HIT137-Assignment-02_Group-125-SYD
 def main():
     long_string= input("Assume String :")
     iterate=0
