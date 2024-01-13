@@ -1,3 +1,4 @@
+#https://github.com/Ahamed-Fahim29/HIT137-Assignment-02_Group-125-SYD
 def main():
     crypto_text="""tybony_inevnoyr = 100 
 zl_qvpg= {'xr11': 'inyhr1', 'xr12': 'inyhr2', 'xr13': 'inyhr3'}
@@ -66,7 +67,7 @@ def cryptogram_to_original(crypto_text,key,original_text,iterate):
         cryptogram_to_original(crypto_text,key,original_text,iterate)
     else:
         print (original_text)
-        f = open("question3_sub.py", "w")
+        f = open("question3_sub1.py", "w")#change the file name to question3_sub to question3_sub1, to not erasing the corrected code
         f.write(original_text)
         f.close()
         return original_text
